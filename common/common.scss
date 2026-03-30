@@ -410,6 +410,12 @@ blockquote {
   color: var(--primary-very-low);
 }
 
+.d-combo-button.--has-menu .d-combo-button-button {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right-color: rgba(0,0,0,0);
+}
+
 .sidebar-footer-wrapper .sidebar-footer-container::before {
   background: none;
 }
