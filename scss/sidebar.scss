@@ -25,8 +25,9 @@
   }
 }
 
-.sidebar-section-link-wrapper .sidebar-section-link:hover {
+.sidebar-section-link-wrapper .sidebar-section-link:focus-visible, .sidebar-section-link-wrapper .sidebar-section-link:hover {
   background: var(--d-sidebar-active-background);
+  color: var(--d-sidebar-active-color);
 }
 
 .sidebar-footer-wrapper {
