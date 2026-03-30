@@ -43,19 +43,19 @@
   @include mint-card-bg;
 }
 
-.navigation-topics {
-  .container.list-container {
-    border-radius: var(--mint-border-radius);
-    box-shadow:
-      0 8px 60px 0 rgb(103, 151, 255, 0.1),
-      0 12px 90px 0 rgb(113, 81, 169, 0.1);
-    padding: 2em;
-    border-top: 8px solid var(--tertiary);
-    margin-top: 0.8em;
 
-    @include mint-card-bg;
-  }
+.container.list-container {
+  border-radius: var(--mint-border-radius);
+  box-shadow:
+    0 8px 60px 0 rgb(103, 151, 255, 0.1),
+    0 12px 90px 0 rgb(113, 81, 169, 0.1);
+  padding: 2em;
+  border-top: 8px solid var(--tertiary);
+  margin-top: 0.8em;
+
+  @include mint-card-bg;
 }
+
 
 .search-widget .search-context {
   padding: 10px;
