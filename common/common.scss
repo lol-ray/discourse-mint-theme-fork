@@ -354,6 +354,15 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   background: none;
 }
 
+.user-main .about .details,
+.user-main .about.collapsed-info .details {
+  background: none;
+}
+
+.nav-pills > li a.active .d-icon, .nav-pills > li button.active .d-icon {
+  color: var(--d-button-primary-icon-color);
+}
+
 .search-container .search-advanced-sidebar {
   .search-advanced-title {
     background: var(--tertiary);
