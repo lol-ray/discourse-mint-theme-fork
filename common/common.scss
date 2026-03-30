@@ -389,8 +389,25 @@ blockquote {
   border-left: 5px solid var(--tertiary);
 }
 
+.d-modal__container {
+  background-color: var(--primary-very-low);
+}
+
 .flag-message {
   resize: vertical;
+}
+
+#reply-control,
+.d-editor-textarea-wrapper {
+  background-color: var(--primary-very-low);
+}
+
+.select-kit.multi-select {
+  background: none;
+}
+
+.toolbar__button.--active .d-icon {
+  color: var(--primary-very-low);
 }
 
 .sidebar-footer-wrapper .sidebar-footer-container::before {
