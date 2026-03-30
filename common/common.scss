@@ -368,11 +368,15 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 
 .topic-list-item:nth-child(odd) {
-  background-color: var(--primary-very-low);
+  background-color: var(--primary-low);
 }
 
 .topic-list-item:nth-child(even) {
   background-color: transparent;
+}
+
+.topic-list-item, tbody tr {
+  border-bottom: none;
 }
 
 .search-container .search-advanced-sidebar {
