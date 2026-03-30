@@ -379,6 +379,10 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   border-bottom: none;
 }
 
+.sidebar-footer-wrapper .sidebar-footer-container::before {
+  background: none;
+}
+
 .search-container .search-advanced-sidebar {
   .search-advanced-title {
     background: var(--tertiary);
