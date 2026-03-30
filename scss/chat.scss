@@ -38,3 +38,9 @@ html body.has-sidebar-page.has-full-page-chat {
 .no-touch .chat-message-container:hover, .no-touch .chat-transcript:hover, .no-touch .chat-message-container.-active, .no-touch .-active.chat-transcript {
   background: var(--primary-low);
 }
+
+@media (hover: hover) {
+  .chat-channel-row:hover, .chat-channel-row.active {
+    background: var(--primary-low);
+  }
+}
