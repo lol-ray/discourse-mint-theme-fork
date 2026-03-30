@@ -38,8 +38,8 @@
   color: var(--d-sidebar-active-color);
 }
 
-.sidebar-section-link-wrapper[data-list-item-name="new-chat-dm"] .prefix-icon,
-.sidebar-section-link-wrapper[data-identifier="sidebar-more-section"] .prefix-icon {
+.sidebar-section-link-wrapper[data-list-item-name="new-chat-dm"] .sidebar-section-link:hover .prefix-icon,
+.sidebar-section-link-wrapper[data-identifier="sidebar-more-section"] .sidebar-section-link:hover .prefix-icon {
   color: var(--d-sidebar-active-color);
 }
 
