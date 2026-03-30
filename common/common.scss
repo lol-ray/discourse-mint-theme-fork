@@ -22,6 +22,10 @@
   color: var(--secondary);
 }
 
+.discourse-no-touch .d-header-icons .icon:hover, .discourse-no-touch .d-header-icons .icon:focus-visible {
+  background-color: var(--tertiary);
+}
+
 .alert.alert-info {
   border-radius: 10px;
 }
