@@ -389,6 +389,10 @@ blockquote {
   border-left: 5px solid var(--tertiary);
 }
 
+.flag-message {
+  resize: vertical;
+}
+
 .sidebar-footer-wrapper .sidebar-footer-container::before {
   background: none;
 }
