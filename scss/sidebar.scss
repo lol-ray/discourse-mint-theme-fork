@@ -39,6 +39,7 @@
 }
 
 .sidebar-section-link-wrapper[data-list-item-name="new-chat-dm"] .sidebar-section-link:hover .prefix-icon,
+.sidebar-section-link-wrapper[data-identifier="sidebar-more-section"] .sidebar-section-link:active .prefix-icon,
 .sidebar-section-link-wrapper[data-identifier="sidebar-more-section"] .sidebar-section-link:hover .prefix-icon {
   color: var(--d-sidebar-active-color);
 }
