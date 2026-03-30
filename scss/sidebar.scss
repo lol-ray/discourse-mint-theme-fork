@@ -25,7 +25,7 @@
   }
 }
 
-.sidebar-section-link-wrapper .sidebar-section-link:focus-visible, .sidebar-section-link-wrapper .sidebar-section-link:hover {
+.sidebar-section-link-wrapper .sidebar-section-link:focus-visible, .sidebar-section-link-wrapper:hover .sidebar-section-link {
   background: var(--d-sidebar-active-background);
   color: var(--d-sidebar-active-color);
 }
@@ -34,13 +34,13 @@
   color: var(--d-sidebar-active-color);
 }
 
-.sidebar-section-link-wrapper .sidebar-section-link:focus-visible .sidebar-section-link-suffix.icon.unread svg, .sidebar-section-link-wrapper .sidebar-section-link:hover .sidebar-section-link-suffix.icon.unread svg {
+.sidebar-section-link-wrapper .sidebar-section-link:focus-visible .sidebar-section-link-suffix.icon.unread svg, .sidebar-section-link-wrapper:hover .sidebar-section-link .sidebar-section-link-suffix.icon.unread svg {
   color: var(--d-sidebar-active-color);
 }
 
-.sidebar-section-link-wrapper[data-list-item-name="new-chat-dm"] .sidebar-section-link:hover .prefix-icon,
-.sidebar-section-link-wrapper[data-identifier="sidebar-more-section"] .sidebar-section-link:active .prefix-icon,
-.sidebar-section-link-wrapper[data-identifier="sidebar-more-section"] .sidebar-section-link:hover .prefix-icon {
+.sidebar-section-link-wrapper[data-list-item-name="new-chat-dm"] .sidebar-section-link-wrapper:hover .prefix-icon,
+.sidebar-section-link-wrapper[data-identifier="sidebar-more-section"] .sidebar-section-link-wrapper:active .prefix-icon,
+.sidebar-section-link-wrapper[data-identifier="sidebar-more-section"] .sidebar-section-link-wrapper:hover .prefix-icon {
   color: var(--d-sidebar-active-color);
 }
 
