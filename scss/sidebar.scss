@@ -34,7 +34,8 @@
   color: var(--d-sidebar-active-color);
 }
 
-.sidebar-section-link-wrapper .sidebar-section-link:focus-visible .sidebar-section-link-suffix.icon.unread svg, .sidebar-section-link-wrapper .sidebar-section-link:hover .sidebar-section-link-suffix.icon.unread svg {
+.sidebar-section-link-wrapper .sidebar-section-link:focus-visible .sidebar-section-link-suffix.icon.unread svg, .sidebar-section-link-wrapper .sidebar-section-link:hover .sidebar-section-link-suffix.icon.unread svg,
+.sidebar-section-link-wrapper .sidebar-section-link:focus-visible .sidebar-section-link-suffix.icon.unread svg, .sidebar-section-link-wrapper .sidebar-section-link:active .sidebar-section-link-suffix.icon.unread svg {
   color: var(--d-sidebar-active-color);
 }
 
