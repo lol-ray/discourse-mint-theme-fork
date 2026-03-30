@@ -384,6 +384,11 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   transition: background-color 0.2s ease;
 }
 
+blockquote {
+  background: var(--primary-200);
+  border-left: 5px solid var(--tertiary);
+}
+
 .sidebar-footer-wrapper .sidebar-footer-container::before {
   background: none;
 }
