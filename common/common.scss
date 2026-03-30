@@ -379,6 +379,11 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   border-bottom: none;
 }
 
+.topic-list-item:hover {
+  background-color: var(--secondary);
+  transition: background-color 0.2s ease;
+}
+
 .sidebar-footer-wrapper .sidebar-footer-container::before {
   background: none;
 }
