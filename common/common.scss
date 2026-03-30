@@ -367,6 +367,14 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   color: var(--secondary);
 }
 
+.topic-list-item:nth-child(odd) {
+  background-color: var(--primary-very-low);
+}
+
+.topic-list-item:nth-child(even) {
+  background-color: transparent;
+}
+
 .search-container .search-advanced-sidebar {
   .search-advanced-title {
     background: var(--tertiary);
