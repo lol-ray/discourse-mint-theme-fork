@@ -38,6 +38,14 @@
   color: var(--d-sidebar-active-color);
 }
 
+.sidebar-section-link-wrapper[data-list-item-name="new-chat-dm"] .prefix-icon {
+  color: var(--d-sidebar-active-color);
+}
+
+.sidebar-section-link:hover .sidebar-more-section-trigger .d-icon {
+  color: var(--d-sidebar-active-color);
+}
+
 .sidebar-footer-wrapper {
   background: var(--primary-very-low);
 }
