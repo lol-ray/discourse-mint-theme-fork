@@ -363,6 +363,10 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   color: var(--d-button-primary-icon-color);
 }
 
+.btn:visited, .d-modal.json-schema-editor-modal .je-ready button:visited, .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add:visited {
+  color: var(--secondary);
+}
+
 .search-container .search-advanced-sidebar {
   .search-advanced-title {
     background: var(--tertiary);
