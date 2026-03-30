@@ -43,7 +43,7 @@
   @include mint-card-bg;
 }
 
-.navigation-categories {
+.navigation-topics {
   .container.list-container {
     border-radius: var(--mint-border-radius);
     box-shadow:
@@ -52,7 +52,7 @@
     padding: 2em;
     border-top: 8px solid var(--tertiary);
     margin-top: 0.8em;
-  
+
     @include mint-card-bg;
   }
 }
