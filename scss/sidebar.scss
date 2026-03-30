@@ -30,6 +30,10 @@
   color: var(--d-sidebar-active-color);
 }
 
+.sidebar-section-link-wrapper .sidebar-section-link-prefix.icon:hover {
+  color: var(--d-sidebar-active-color);
+}
+
 .sidebar-footer-wrapper {
   background: var(--primary-very-low);
 }
