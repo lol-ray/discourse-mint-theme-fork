@@ -43,7 +43,8 @@
   @include mint-card-bg;
 }
 
-.navigation-topics {
+.navigation-topics,
+.navigation-categories {
   .container.list-container {
     border-radius: var(--mint-border-radius);
     box-shadow:
