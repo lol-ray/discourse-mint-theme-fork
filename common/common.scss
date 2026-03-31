@@ -370,12 +370,12 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 
 .topic-list-item:nth-child(odd),
-.latest-topic-list-item:nth-child(odd) {
+.latest-topic-list-item:nth-child(even) {
   background-color: var(--primary-low);
 }
 
 .topic-list-item:nth-child(even),
-.latest-topic-list-item:nth-child(even) {
+.latest-topic-list-item:nth-child(odd) {
   background-color: transparent;
 }
 
