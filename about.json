@@ -4,7 +4,7 @@
   "about_url": "https://meta.discourse.org/t/mint-a-modern-theme-for-discourse/202822",
   "license_url": "https://github.com/discourse/discourse-mint-theme/blob/main/LICENSE",
   "color_schemes": {
-    "Girl Cult (Dark)": {
+    "Girl-Cult": {
       "primary": "d6d6e8",
       "secondary": "363360",
       "tertiary": "8378bf",
