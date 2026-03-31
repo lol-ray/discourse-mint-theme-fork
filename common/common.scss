@@ -386,6 +386,15 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   transition: background-color 0.2s ease;
 }
 
+
+.category-list tr:nth-child(odd) {
+  background-color: var(--primary-200);
+}
+
+.category-list tr:nth-child(even) {
+  background-color: var(--primary-100);
+}
+
 blockquote {
   background: var(--primary-200);
   border-left: 5px solid var(--tertiary);
