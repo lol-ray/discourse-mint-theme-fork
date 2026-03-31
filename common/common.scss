@@ -395,6 +395,10 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   background-color: var(--primary-100);
 }
 
+.category-list thead {
+  background-color: none;
+}
+
 blockquote {
   background: var(--primary-200);
   border-left: 5px solid var(--tertiary);
