@@ -1,27 +1,19 @@
 {
-  "name": "Mint Theme",
+  "name": "Girl Cult",
   "authors": "Discourse",
   "about_url": "https://meta.discourse.org/t/mint-a-modern-theme-for-discourse/202822",
   "license_url": "https://github.com/discourse/discourse-mint-theme/blob/main/LICENSE",
   "color_schemes": {
-    "mint-light": {
-      "primary": "454545",
-      "secondary": "F6FBFC",
-      "tertiary": "4F8A7C",
-      "header_background": "ffffff",
-      "header_primary": "111111",
-      "selected": "e3efec",
-      "hover": "e3efec"
-    },
-    "mint-dark": {
-      "primary": "e0e0e0",
-      "secondary": "2d2d2d",
-      "tertiary": "4F8A7C",
-      "header_background": "202020",
-      "header_primary": "e0e0e0",
-      "highlight": "b2b235",
-      "selected": "1c302b",
-      "hover": "1c302b"
+    "Girl Cult (Dark)": {
+      "primary": "d6d6e8",
+      "secondary": "363360",
+      "tertiary": "8378bf",
+      "quaternary": "8378bf",
+      "header_background": "8378bf",
+      "header_primary": "ffffff",
+      "selected": "8378bf",
+      "hover": "f2f2f2"
+      "highlight": "a8a5cb",
     }
   },
   "screenshots": ["screenshots/light.webp", "screenshots/dark.webp"]
